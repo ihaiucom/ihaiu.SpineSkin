@@ -9,6 +9,10 @@ public class StartOptions
     [Option("autoEnd", Required = false, Default = false)]
     public bool autoEnd { get; set; }
 
+
+    [Option("cmd", Required = false, Default = "generate")]
+    public string cmd { get; set; }
+
     [Option("setting", Required = false, Default = "./SpineSkinSetting.json")]
     public string setting { get; set; }
 
@@ -39,6 +43,14 @@ public class StartOptions
     // 导出spine设置
     [Option("exportSpineSettingJson", Required = false, Default = "E:/zengfeng/GamePF/gamepf_art/Animation/SpineWorkspace/laya.export.json")]
     public string exportSpineSettingJson { get; set; }
+
+    // 导出sk目录
+    [Option("rootExportSK", Required = false, Default = "E:/zengfeng/GamePF/gamepf_art/Animation/SpineWorkspace/ExportSK")]
+    public string rootExportSK { get; set; }
+
+    // 导出spine res目录
+    [Option("rootExportSpineRes", Required = false, Default = "E:/zengfeng/GamePF/gamepf_art/Animation/SpineWorkspace/ExportSKRes/Unit")]
+    public string rootExportSpineRes { get; set; }
 
 
 

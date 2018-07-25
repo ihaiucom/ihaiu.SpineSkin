@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SpineSkin": {
+      "commandName": "Project",
+      "commandLineArgs": "--cmd=ressk"
+    }
+  }
+}

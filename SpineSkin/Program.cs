@@ -10,11 +10,23 @@ class Program
 
         Setting.Init(args);
 
-        SpineSkinManager manager = new SpineSkinManager();
-        manager.ReadStyles();
-        manager.ReadImages();
-        manager.Generate();
-        manager.GenerateExportSpineBat();
+        switch(Setting.cmd)
+        {
+            case CmdType.rename:
+                new SpineRenameManager().Reads();
+                break;
+            case CmdType.ressk:
+                new SpineResskManager().Reads();
+                break;
+            case CmdType.generate:
+            default:
+                SpineSkinManager manager = new SpineSkinManager();
+                manager.ReadStyles();
+                manager.ReadImages();
+                manager.Generate();
+                manager.GenerateExportSpineBat();
+                break;
+        }
 
 
 

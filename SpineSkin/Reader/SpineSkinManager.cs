@@ -59,6 +59,7 @@ public class SpineSkinManager
     {
         StringWriter sw = new StringWriter();
         sw.WriteLine("@ECHO OFF");
+        sw.WriteLine($"if exist \"{ Setting.Options.rootExportSpine}\" rmdir /s /q \"{ Setting.Options.rootExportSpine}\"");
 
         foreach (SpineStyleData style in styleList)
         {

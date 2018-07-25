@@ -1,0 +1,13 @@
+E:\zengfeng\github\ihaiu.SpineSkin\Bin\NLog.config
+E:\zengfeng\github\ihaiu.SpineSkin\Bin\NLog.xsd
+E:\zengfeng\github\ihaiu.SpineSkin\Bin\SpineSkin.deps.json
+E:\zengfeng\github\ihaiu.SpineSkin\Bin\SpineSkin.runtimeconfig.json
+E:\zengfeng\github\ihaiu.SpineSkin\Bin\SpineSkin.runtimeconfig.dev.json
+E:\zengfeng\github\ihaiu.SpineSkin\Bin\SpineSkin.dll
+E:\zengfeng\github\ihaiu.SpineSkin\Bin\SpineSkin.pdb
+E:\zengfeng\github\ihaiu.SpineSkin\SpineSkin\obj\Release\SpineSkin.csproj.CoreCompileInputs.cache
+E:\zengfeng\github\ihaiu.SpineSkin\SpineSkin\obj\Release\SpineSkin.AssemblyInfoInputs.cache
+E:\zengfeng\github\ihaiu.SpineSkin\SpineSkin\obj\Release\SpineSkin.AssemblyInfo.cs
+E:\zengfeng\github\ihaiu.SpineSkin\SpineSkin\obj\Release\SpineSkin.csproj.CopyComplete
+E:\zengfeng\github\ihaiu.SpineSkin\SpineSkin\obj\Release\SpineSkin.dll
+E:\zengfeng\github\ihaiu.SpineSkin\SpineSkin\obj\Release\SpineSkin.pdb
